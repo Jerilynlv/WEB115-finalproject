@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>WEB-115 Final Project</title>
+</head>
+
+<body style="background-color: #FFFFFF;">
+
+    <header>
+        <img src="/Users/jerilynvivas/Downloads/Purple Modern Geometric Graphic Designer LinkedIn Banner (1)/1.png"
+            alt="Build Your Meal Plan Banner" style="width: 100%; max-width: 2200px; height: auto;">
+    </header>
+
+    <form id="mealForm">
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" placeholder="Your Name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required><br>
+
+        <label for="goal">Goal for the week:</label>
+        <textarea id="goal" placeholder="Your fitness goal for this week"></textarea><br>
+
+        <h3>Meal Plan for the Week:</h3>
+        <div id="mealInputs"></div>
+
+        <button type="button" id="generateMealPlan">Generate Meal Plan</button>
+        <button type="button" id="clearPlanner">Clear Planner</button>
+        <button type="button" id="printPlanner">Print Planner</button>
+        <button type="button" id="downloadPlanner">Download Planner</button>
+    </form>
+
+    <script src="projectJS.js"></script>
+</body>
+
+</html>
